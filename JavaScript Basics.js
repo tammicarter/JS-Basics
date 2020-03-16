@@ -8,7 +8,7 @@ create a Form that request user input via questions
 
 //Testing connection
 let name= "Tammi Ross "; 
-alert(`Hi there, ${name} here. Want to see something cool?`);
+alert(`Hi, ${name} here. Want to see something cool?`);
 prompt(` Type Yes`);
 document.querySelector('html').innerHTML = `
   <h1>Welcome to the ${name} Experiment! Scroll Down!</h1>
